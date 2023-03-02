@@ -384,8 +384,15 @@ a {
     background: #2e2100;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden; /*?  Ẩn Item2 và item 3 */
+}
+
 .feedback-item {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .feedback-item .avatar {
